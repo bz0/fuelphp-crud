@@ -18,7 +18,16 @@ return array(
 	 *
 	 */
 
-	'_root_' => 'index',
+	'_root_' => 'article/index',
+
+	//記事作成
+	'article/create' => 'article/create',
+
+	//記事編集
+	'article/:id/edit' => 'article/edit',
+
+	//記事表示
+	'article/:id' => 'article/show',
 
 	/**
 	 * -------------------------------------------------------------------------
